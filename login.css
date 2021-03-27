@@ -1,0 +1,64 @@
+body{
+    background: blueviolet;
+}
+
+#caixa{
+    margin: 20em 10% 0% 10%;
+    /*margin:200px 30% 10px 6rem;*/
+}
+
+.login,.senha{
+    font-style: italic; 
+    color:black; 
+    font-weight: bold;
+    margin-bottom: 15px;
+
+  
+}
+
+#botao{
+    color: blanchedalmond;
+    border-radius: 10px;
+    background-color: black;
+    margin-left: 100px;
+ 
+
+}
+
+
+
+@media only screen and (max-device-width: 900px){
+
+    body{
+        background: blueviolet;
+    }
+    
+    #caixa{
+        margin: 15em 10em 0% 10%;
+        /*margin:200px 30% 10px 6rem;*/
+        display: flexbox;
+    }
+    
+    .login,.senha{
+        font-style: italic; 
+        color:black; 
+        font-weight: bold;
+        margin-bottom: 15px;
+        display: block;
+      
+    }
+    
+    #botao{
+        color: blanchedalmond;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:55px;
+        display: block;
+     
+    
+    }
+
+} 
+
+
+
